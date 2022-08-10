@@ -1,0 +1,6 @@
+framework module Pods_appFormat {
+  umbrella header "Pods-appFormat-umbrella.h"
+
+  export *
+  module * { export * }
+}
