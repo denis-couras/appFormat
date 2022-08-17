@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8789EB47ABD82B143484197E /* Pods_appFormat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FD7B378F89308893943A79 /* Pods_appFormat.framework */; };
+		EC5F069828AC4EBC0060F67D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5F069728AC4EBC0060F67D /* Images.xcassets */; };
+		EC5F069A28AC4ED60060F67D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5F069928AC4ED60060F67D /* Colors.xcassets */; };
+		EC5F069D28AC4FDF0060F67D /* Base.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC5F069F28AC4FDF0060F67D /* Base.strings */; };
+		EC5F06A128AC50320060F67D /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EC5F06A028AC50320060F67D /* Base.lproj */; };
+		EC5F06A428AC50ED0060F67D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F06A328AC50ED0060F67D /* Strings.swift */; };
+		EC5F06A628AC51050060F67D /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F06A528AC51050060F67D /* Assets.swift */; };
 		EC7FDAE228A3347E0024F20D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7FDAE128A3347E0024F20D /* AppDelegate.swift */; };
 		EC7FDAE428A3347E0024F20D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7FDAE328A3347E0024F20D /* SceneDelegate.swift */; };
 		EC7FDAE628A3347E0024F20D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7FDAE528A3347E0024F20D /* ViewController.swift */; };
@@ -20,6 +26,15 @@
 		444B2A26D57D9D20096729E3 /* Pods-appFormat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appFormat.release.xcconfig"; path = "Target Support Files/Pods-appFormat/Pods-appFormat.release.xcconfig"; sourceTree = "<group>"; };
 		A7876DA4CFB8C2A4BFB8782F /* Pods-appFormat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appFormat.debug.xcconfig"; path = "Target Support Files/Pods-appFormat/Pods-appFormat.debug.xcconfig"; sourceTree = "<group>"; };
 		C4FD7B378F89308893943A79 /* Pods_appFormat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appFormat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5F069728AC4EBC0060F67D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC5F069928AC4ED60060F67D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		EC5F069E28AC4FDF0060F67D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Base.strings; sourceTree = "<group>"; };
+		EC5F06A028AC50320060F67D /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = text; path = Base.lproj; sourceTree = "<group>"; };
+		EC5F06A328AC50ED0060F67D /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		EC5F06A528AC51050060F67D /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		EC5F06A728AC54330060F67D /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		EC5F06A828AC54330060F67D /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		EC5F06A928AC54330060F67D /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Base.strings"; sourceTree = "<group>"; };
 		EC7FDADE28A3347E0024F20D /* appFormat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appFormat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7FDAE128A3347E0024F20D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC7FDAE328A3347E0024F20D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +63,6 @@
 				A7876DA4CFB8C2A4BFB8782F /* Pods-appFormat.debug.xcconfig */,
 				444B2A26D57D9D20096729E3 /* Pods-appFormat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -60,9 +74,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EC5F069628AC4EA60060F67D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F069728AC4EBC0060F67D /* Images.xcassets */,
+				EC5F069928AC4ED60060F67D /* Colors.xcassets */,
+				EC5F069F28AC4FDF0060F67D /* Base.strings */,
+				EC5F06A028AC50320060F67D /* Base.lproj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC5F06A228AC50D70060F67D /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				EC5F06A328AC50ED0060F67D /* Strings.swift */,
+				EC5F06A528AC51050060F67D /* Assets.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		EC7FDAD528A3347E0024F20D = {
 			isa = PBXGroup;
 			children = (
+				EC5F06A228AC50D70060F67D /* Generated */,
+				EC5F069628AC4EA60060F67D /* Resources */,
 				EC7FDAE028A3347E0024F20D /* appFormat */,
 				EC7FDADF28A3347E0024F20D /* Products */,
 				E919570D32D41833E4E2B447 /* Pods */,
@@ -135,6 +171,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = EC7FDAD528A3347E0024F20D;
 			productRefGroup = EC7FDADF28A3347E0024F20D /* Products */;
@@ -151,7 +188,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5F069A28AC4ED60060F67D /* Colors.xcassets in Resources */,
+				EC5F06A128AC50320060F67D /* Base.lproj in Resources */,
+				EC5F069D28AC4FDF0060F67D /* Base.strings in Resources */,
 				EC7FDAEE28A3347F0024F20D /* LaunchScreen.storyboard in Resources */,
+				EC5F069828AC4EBC0060F67D /* Images.xcassets in Resources */,
 				EC7FDAEB28A3347F0024F20D /* Assets.xcassets in Resources */,
 				EC7FDAE928A3347E0024F20D /* Main.storyboard in Resources */,
 			);
@@ -191,6 +232,8 @@
 			files = (
 				EC7FDAE628A3347E0024F20D /* ViewController.swift in Sources */,
 				EC7FDAE228A3347E0024F20D /* AppDelegate.swift in Sources */,
+				EC5F06A428AC50ED0060F67D /* Strings.swift in Sources */,
+				EC5F06A628AC51050060F67D /* Assets.swift in Sources */,
 				EC7FDAE428A3347E0024F20D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,10 +241,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		EC5F069F28AC4FDF0060F67D /* Base.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5F069E28AC4FDF0060F67D /* en */,
+				EC5F06A928AC54330060F67D /* pt-BR */,
+			);
+			name = Base.strings;
+			sourceTree = "<group>";
+		};
 		EC7FDAE728A3347E0024F20D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				EC7FDAE828A3347E0024F20D /* Base */,
+				EC5F06A728AC54330060F67D /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -210,6 +263,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EC7FDAED28A3347F0024F20D /* Base */,
+				EC5F06A828AC54330060F67D /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -221,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -281,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
