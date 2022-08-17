@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
         let lbl = UILabel()
         lbl.textColor = Asset.Colors.corBlue.color
     }
